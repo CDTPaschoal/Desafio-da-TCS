@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo a Empresa - TCS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Terminal de Cargas de Sarzedo (TCS)</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Conhecendo a Empresa</h2>
+            <p>O Terminal de Cargas de Sarzedo (TCS) é um dos mais importantes canais de logística da região, no modal ferroviário, responsável pelo carregamento, armazenagem e movimentação de minério de ferro e ferro gusa no país.</p>
+            <p>Devido a nossa localização privilegiada e estratégica, somos capazes de atender aos diversos segmentos da mineração no mercado interno e também de exportação.</p>
+            <p>Para que essa logística ocorra de forma eficiente, a equipe de T.I possui um papel essencial nos processos referentes à automação, visando o aumento de performance e garantindo a integridade da informação junto aos clientes.</p>
+        </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Envio de Dados</h1>
+    <form id="email-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="host">Host IMAP:</label>
+        <input type="text" id="host" name="host" required><br><br>
+        <label for="port">Porta IMAP:</label>
+        <input type="number" id="port" name="port" required><br><br>
+        <button type="submit">Baixar </button>
+    </form>
+
+    <h2>Documentos Baixados:</h2>
+    <div id="document-list"></div>
+
+    <div id="document-info" style="display:none;">
+        <h3>Informações do Documento</h3>
+        <div id="info-content"></div>
+        <button onclick="hideDocumentInfo()">Voltar</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
